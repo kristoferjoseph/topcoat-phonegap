@@ -1,0 +1,65 @@
+@import global
+@import fx
+@import topcoat-mobile-light
+@import nib
+
+.app
+  -webkit-backface-visibility hidden
+  position absolute
+  top 0
+  right 0
+  bottom 0
+  left 0
+
+.app-container
+  position absolute
+  top 0
+  right 0
+  bottom 0
+  left 0
+  box-shadow 0 0 8px rgba(0,0,0,0.5)
+  border-left 1px solid rgba(255,255,255,0.2)
+  overflow hidden
+
+.app-header
+  position fixed
+  width 100%
+
+.app-menu
+  position absolute
+  top 4rem
+  bottom 0
+  width 100%
+  overflow scroll
+
+.app-secondary-menu
+  position absolute
+  top 4rem
+  bottom 0
+  width 75%
+  overflow scroll
+
+.slideIn
+  transform translate3D(0,0,0)
+  animation-duration 0.10s
+  animation-fill-mode both
+  animation-name slideIn
+
+@-webkit-keyframes slideIn
+  0%
+    transform translateX(0%)
+  100%
+    transform translateX(75%)
+
+.slideOut
+  transform translate3D(0,0,0)
+  animation-duration 0.10s
+  animation-fill-mode both
+  animation-name slideOut
+
+@-webkit-keyframes slideOut
+  0%
+    transform translateX(75%)
+  100%
+    transform translateX(0%)
+
