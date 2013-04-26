@@ -1,1 +1,4 @@
-PhoneGap Hello World app
+hello-phonegap
+==============
+
+Hello PhoneGap app
