@@ -1,4 +1,4 @@
-hello-phonegap
+topcoat-phonegap
 ==============
 
-Hello PhoneGap app
+Topcoat ))<===>(( PhoneGap
