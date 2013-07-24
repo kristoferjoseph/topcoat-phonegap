@@ -40,26 +40,9 @@
   overflow scroll
 
 .slideIn
-  transform translate3D(0,0,0)
-  animation-duration 0.10s
-  animation-fill-mode both
-  animation-name slideIn
-
-@-webkit-keyframes slideIn
-  0%
-    transform translateX(0%)
-  100%
-    transform translateX(75%)
-
+  margin-left 75%
+  transition margin-left 350ms
 .slideOut
-  transform translate3D(0,0,0)
-  animation-duration 0.10s
-  animation-fill-mode both
-  animation-name slideOut
-
-@-webkit-keyframes slideOut
-  0%
-    transform translateX(75%)
-  100%
-    transform translateX(0%)
-
+  margin-left 0%
+  transition margin-left 350ms
+  
